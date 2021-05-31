@@ -32,6 +32,15 @@ a:hover{
   color: #04cb9a !important;
   border-bottom: 2px solid #04cb9a;
 }
+.btn-outline-primary{
+  color: #04cb9a !important;
+  border-color: #04cb9a !important;
+}
+.btn-outline-primary:hover{
+  color: #f8f8f8 !important;
+  background-color: #04cb9a !important;
+}
+
 
 /*!
 
