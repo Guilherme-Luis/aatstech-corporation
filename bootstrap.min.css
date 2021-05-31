@@ -30,6 +30,7 @@ a {
 }
 a:hover{
   color: #04cb9a !important;
+  border-bottom: 2px solid #04cb9a;
 }
 
 /*!
