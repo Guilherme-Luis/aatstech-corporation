@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Home | Aatstech Corporation</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed">
+    <link rel="shortcut icon" href="images/logo-b.png" type="image/x-icon">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="navbar-top-fixed.css" rel="stylesheet">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=""><img src="images/logo-c.png" alt="" width="150" height="30"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#produto">Produtos e Soluções</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#precos">Preços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#criadores">Criadores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../painel/login.php" tabindex="-1" aria-disabled="true"> Login</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<main>
+  <!--Inicio-->
+  <div id="home" class="imgBg position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
+    <div class="fonteHome col-md-5 p-lg-5 mx-auto my-5 module-inside">
+      <img src="images/logo-b.png" alt="logo" >
+      <!-- <h1 class="fw-normal">Water Leak Detector</h1>  -->
+      <h2 class="fw-normal">Vazou chamou Aatstech!</h2>
+      <!--  Isso era um botão -> <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+  <!--Sobre-->
+  <div id="produto" class="about-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h2 class="display-4">Water Leak Detector</h2>
+    <p class="Sobre">
+        O Water Leak Detector tem objetivo de procurar os vazamentos de água de forma 
+        efetiva e precisa. 
+        Sua criação foi com objetivo de facilitar o acesso ao equipamento.
+        <br>
+        A Aatstech é uma empresa especializada em vazamentos. 
+        <br>
+        Nosso maior obejetivo é disponibilizar 
+        um produto a preços acessivel a toda a população.
+      </p>
+  </div>
+  <!-- Sobre continuação - fotos do projeto-->
+  <div  class="flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Arduino Uno</h2>
+          <p class="lead">
+            O Arduino Uno R3 é a placa que intermedia entre o visor e sensor, para poder interpretar os dados 
+            recibos e enviar informações ao display.	 
+          </p>
+          <p>
+            <img src="images/arduino_uno_r3_original_da_italia_ded_componentes.png" width="300px" alt="Imagens do Arduino Uno">
+          </p>
+        </div>
+      </div>
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Sensor</h2>
+          <p class="lead"> 
+            O Sensor de Nível é um módulo eletrônico que detecta a presença de água em um determinado lugar 
+            ou reservatório. 
+            <br>
+            É um produto simples, que torna facíl a localização do vazamento.
+          </p>
+          <p>
+            <img class="menor" src="images/sensor.jpg" width="300px" alt="Imagem do Sensor">
+          </p>
+        </div>
+      </div>
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Visor</h2>
+          <p class="lead">
+              O display LCD possui backlight (luz de fundo azul) e letras na cor branca. 
+              <br>
+              Durante seu funcionamento o sensor transmite informações do ambiente para o display.
+          </p>
+          <p> 
+            <img class="menor" src="images/LCD-16x2-com-arduino.png" width="300px" alt="Imagem do LCD">
+          </p>
+        </div>
+      </div>
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Box</h2>
+          <p class="lead">
+             O Box do Water Leak Detector possui Arduino e o display.
+            <p>
+            <img class="menor" src="images/box.png" width="300px" alt="Imagem de Box">
+            </p>
+          </p>
+        </div>
+      </div>
+  </div>
+
+  <!--Precos-->
+    <div id="precos" class="container">
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-5 ">Preços</h1>
+        <p class="lead">
+          Tabela de Preços do Water Leak Detector
+        </p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal">Padrão</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$100<small class="text-muted"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>6 Meses de Suporte Técnico</li>
+              <li>Cor: Preto</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button  type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="Padrao()">Comprar</button>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$250<small class="text-muted"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>1 Ano de Suporte Técnico</li>
+              <li>Cor: Preto</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="Pro()">Comprar</button>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 fw-normal">Ultra</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R$350<small class="text-muted"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>2 Anos de Suporte Técnico</li>
+              <li>Cor: Preto</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button  type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="Ultra()">Comprar</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--Criadores-->
+    <div id="criadores" class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h4 class="display-4 ">Criadores</h4>
+    </div>
+    <div  class="criadores text-center row" a>
+      <div class="col-lg">
+        <img class="bd-placeholder-img rounded-circle " width="120" height="120"  src="images/pp.jpeg" alt="">
+        <h5>Diretor-Geral</h5>
+        <p>Alisson Junio</p> 
+      </div><!-- dev2-->
+      <!-- destuidor -->
+      <div class="col-lg ">
+        <img class="bd-placeholder-img rounded-circle" width="120" height="120"  src="images/Bruno.jpg" alt="">
+        <h5>Desenvolvedor</h5>
+        <p>Bruno Borges </p>
+      </div>
+      <div class="col-lg">          
+        <img class="bd-placeholder-img rounded-circle" width="120" height="120"  src="images/gui.jpeg" alt="">
+        <h5>Desenvolvedor</h5>
+        <p>Guilherme Luis</p>
+      </div>
+      <!-- destuidor -->
+      <div class="col-lg">
+        <img class="bd-placeholder-img rounded-circle" width="120" height="120" src="images/Me_1.jpg" alt="">
+        <h5>Designer </h5>
+        <p>Daniel Rosa </p>
+      </div>
+    </div>
+    <div id="criadores" class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    </div>
+  <hr/>
+</main>
+  <!--Final-->
+<footer class="container py-5 margin-top-0 margin-right-auto margin-bottom-0 margin-left-auto">
+  <div class="row">
+    <div class="col-12 col-md-2">
+    <img class="bd-placeholder-img" height="24"  src="images/logo-c.png" alt="">
+      <small class="d-block mb-3 text-muted"><strong>Desenvolvido em<br>© 2021</strong></small>
+    </div>
+    <div class="col-md-3">
+      <h5>Conteúdo</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Home</a></li>
+        <li><a class="link-secondary" href="#produto">Produto e Soluções</a></li>
+        <li><a class="link-secondary" href="#precos">Preços</a></li>
+        <li><a class="link-secondary" href="#criadores">Criadores</a></li>
+        <li><a class="link-secondary" href="painel/login.php">Login</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <h5>Contato</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" >Rua: Paulo Francisco Queiroz Arruda, 610 </a></li>
+        <li><a class="link-secondary" >Tel: (16) 98194-3236
+        <li><a class="link-secondary" >sac@aatstech.com.br</a></li>
+        <li><a class="link-secondary" >Franca - SP</a></li>
+      </ul>
+    </div>
+    <!-- <div id="duvida" class="col-md-3">
+      <form class="duvida" action="../painel/salvarFormulario.php">
+        <h5 >Fale Conosco</h5>
+        <label for="inputDoubt" class="visually-hidden">Duvida</label>
+        <input type="textarea" id="inputDoubt" name="txtDuvida" class="form-control duvida msg" placeholder="Dúvidas" required="">
+        <label for="inputEmail" class="visually-hidden">Email</label>
+        <input type="email" id="inputEmail" name="txtEmail" class="form-control" placeholder="Email" required="" >
+        <label for="inputTel" class="visually-hidden">Telefone</label>
+        <input type="tel" id="inputTel" name="txtTel" class="form-control" placeholder="Telefone" required="" >
+        <button class="w-10 btn btn-sm btn-primary bton" id="inputButton" type="submit">Enviar</button>
+      </form>
+    </div> -->
+  </div>
+</footer>
+    <script src="bootstrap.bundle.min.js"></script>      
+</body>
+</html>
