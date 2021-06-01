@@ -22,7 +22,8 @@
  .line{
    border-bottom: 1px solid black;
  }
-.nolink{
+.nolink:hover{
+  text-decoration: none;
   border-color: #ffffff00 !important;
 }
  li a{
