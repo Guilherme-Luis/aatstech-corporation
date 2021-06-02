@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Dashboard | Aatstech Corporation</title>
-    <link rel="shortcut icon" href="../../images/logo-b.png" type="image/x-icon">
-    <link href="../../bootstrap.min.css" rel="stylesheet">
+    <title>Produtos | Aatstech Corporation</title>
+    <link rel="shortcut icon" href="../images/logo-b.png" type="image/x-icon">
+    <link href="../bootstrap.min.css" rel="stylesheet">
     <link href="dashboard.css" rel="stylesheet">
     <style>
       .bd-placeholder-img {
@@ -31,14 +31,14 @@
   <body>
     
 <header class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 em nolink"><img src="../../images/logo-c.png" width="150" height="30" alt=""></a>
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 em nolink"><img src="../images/logo-c.png" width="150" height="30" alt=""></a>
   <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <input class="form-control form-control-dark w-100" type="text" placeholder="Pesquisar por ''Compras'' ou ''Produtos''" aria-label="Search">
+  <input class="form-control form-control-dark w-100" type="text" placeholder="Pesquisar por Produtos" aria-label="Search">
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
-      <a class="nav-link" href="../../conta/login.html">Sign out</a>
+      <a class="nav-link" href="../conta/login.html">Sign out</a>
     </li>
   </ul>
 </header>
@@ -49,7 +49,7 @@
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">
+            <a class="nav-link" href="index.html">
               <span data-feather="home"></span>
               Dashboard
             </a>
@@ -67,7 +67,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="produtos.html">
+            <a class="nav-link active" aria-current="page" href="produtos.html">
               <span data-feather="box"></span>
               Produtos
             </a>
@@ -129,81 +129,75 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Dashboard</h1>
+        <h1 class="h2">Produtos</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
           <div class="btn-group me-2">
-            <button type="button" class="btn btn-sm btn-outline-primary">Alterar Dashboard</button>
-            <button type="button" class="btn btn-sm btn-outline-primary">Gerar PDF - Dashboard</button>
+            <button type="button" class="btn btn-sm btn-outline-primary">Incluir Produto</button>
+            <button type="button" class="btn btn-sm btn-outline-primary">Alterar Produto</button>
+            <button type="button" class="btn btn-sm btn-outline-primary">Ocultar Produto</button>
+            <button type="button" class="btn btn-sm btn-outline-primary">Excluir Produto</button>
           </div>
           <button type="button" class="btn btn-sm btn-outline-primary dropdown-toggle">
-            <span data-feather="calendar"></span>
-            Data
+            <span data-feather="filter"></span>
+            Filtro A ↔ Z
           </button>
         </div>
       </div>
-     
-      <p>Seja bem-vindo(a), Administrador!</p>
-      <canvas class="my-4 w-100" id="myChart" width="900" height="150"></canvas>  
 
-      <h1 class="h2 border-bottom">Últimas Dúvidas e Sugestões</h1>
+      <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>  -->
+
       <div class="table-responsive">
         <table class="table table-striped table-sm">
           <thead>
             <tr>
-              <th>Protocolo</th>
-              <th>Nome</th>
-              <th>Dúvida ou Sugestões</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="select">
-              <td>1</td>
-              <td>Bruno Ferreira</td>
-              <td>O produto veio faltando o sensor, gostaria de devolução!</td>
-            </tr>
-            <tr class="select">
-              <td>2</td>
-              <td>Paulo Henrique</td>
-              <td>Meu produto com defeito, como podemos resolver!</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <h1 class="h2 border-bottom">Últimas Compras</h1>
-      <div class="table-responsive">
-        <table class="table table-striped table-sm">
-          <thead>
-            <tr>
-              <th>Nº da Compra</th>
-              <th>Usúrios</th>
-              <th>Produto</th>
+              <th>Cod. Produto</th>
+              <th>Cod. EAN</th>
+              <th>Descrição</th>
+              <th>Unidade</th>
               <th>Qtde.</th>
-              <th>Total</th>
+              <th>Preço</th>
+              <th>Característica</th>
+              <th>Situção</th>
             </tr>
           </thead>
           <tbody>
             <tr class="select">
               <td>1</td>
-              <td>brnborges</td>
+              <td>N/D</td>
               <td>Water Leak Detector - Padrão</td>
-              <td>2</td>
-              <td>R$ 200,00</td>
+              <td>PÇ</td>
+              <td>1</td>
+              <td>R$ 100,00</td>
+              <td>Cor: Preto</td>
+              <td>Ativo</td>
             </tr>
             <tr class="select">
-              <td>2</td>
-              <td>pauloh</td>
-              <td>Water Leak Detector - Pro</td>
-              <td>1</td>
-              <td>R$ 250,00</td>
-            </tr>
+                <td>2</td>
+                <td>N/D</td>
+                <td>Water Leak Detector - Pro</td>
+                <td>PÇ</td>
+                <td>1</td>
+                <td>R$ 250,00</td>
+                <td>Cor: Preto</td>
+                <td>Ativo</td>
+              </tr>
+              <tr class="select">
+                <td>3</td>
+                <td>N/D</td>
+                <td>Water Leak Detector - Ultra</td>
+                <td>PÇ</td>
+                <td>1</td>
+                <td>R$ 350,00</td>
+                <td>Cor: Preto</td>
+                <td>Ativo</td>
+              </tr>
           </tbody>
         </table>
       </div>
     </main>
   </div>
 </div>
-    <script src="../../bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap.bundle.min.js"></script>
 
       <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
   </body>
