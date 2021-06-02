@@ -22,17 +22,13 @@
  .line{
    border-bottom: 1px solid black;
  }
-.nolink:hover{
-  text-decoration: none;
-  border-color: #ffffff00 !important;
-}
  li a{
   text-decoration: none;
 }
 a {
   color: #313131 !important;
 }
-a:hover{
+.link:hover{
   color: #04cb9a !important;
   border-bottom: 2px solid #04cb9a;
 }
