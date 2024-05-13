@@ -15,9 +15,9 @@
     <br />
     <a href="https://Guilherme-Luis.github.io/aatstech-corporation/">Veja demonstração</a>
     ·
-    <a href="https://github.com/Guilherme-Luis/aatstech-corporatio/issues">Reportar Bug</a>
+    <a href="https://github.com/Guilherme-Luis/aatstech-corporation/issues">Reportar Bug</a>
     ·
-    <a href="https://github.com/Guilherme-Luis/aatstech-corporatio/issues">Solicitar Request </a>
+    <a href="https://github.com/Guilherme-Luis/aatstech-corporation/issues">Solicitar Request </a>
   </p>
 </p>
 
