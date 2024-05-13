@@ -13,7 +13,7 @@
     <a href="https://github.com/Guilherme-Luis/aatstech-corporation"><strong>Explore os documentos»</strong></a>
     <br />
     <br />
-    <a href="https://brn-borges.github.io/aatstech-corporation/">Veja demonstração</a>
+    <a href="https://brn-borges.github.io/aatstech-corporation/">Veja demonstração[BETA]</a>
     ·
     <a href="https://github.com/Guilherme-Luis/aatstech-corporation/issues">Reportar Bug</a>
     ·
